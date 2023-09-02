@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Команда</title>
+    <link rel="stylesheet" href="css/main/header.css">
+    <link rel="stylesheet" href="css/main/footer.css">
+    <link rel="stylesheet" href="css/main/background.css">
+    <link rel="stylesheet" href="css/teams.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+
+</head>
+
+<header>
+
+    <img src="img/dv-logo.svg" alt="" class="dv-logo">
+    
+    <div class="nav">
+        <a class="main_nav" href="index.html">Головна</a>
+        <a class="course_nav" href="courses.html">Курси</a>
+        <a class="marathons_nav" href="marathons.html">Марафони</a>
+        <a class="corp_nav" href="corporative.html">Корпоративна</a>
+        <a class="team_nav" href="teams.html">Команда</a>
+        <a class="contact_nav" href="contact.html">Контакти</a>
+        
+        <button class="platform-button"><a href="https://deutschvektor.com/">Платформа</a></button>
+    </div>
+   
+    <button id="menuButton">Відкрити меню</button>
+        <label for="menuButton" id="menu-icon">
+          <img src="img/ico/menu.svg"/>
+        </label>
+  
+    <nav class="sidebar">
+      <ul>
+        <div class="sidebar-text">Меню</div>
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="courses.html">Курси</a></li>
+        <li><a href="marathons.html">Марафони</a></li>
+        <li><a href="corporative.html">Корпоративна</a></li>
+        <li><a href="teams.html">Команда</a></li>
+        <li><a href="contact.html">Контакти</a></li>
+        <li><a href="https://deutschvektor.com/">Платформа</a></li>
+      </ul>
+      <div class="yellow_underline"></div>
+    </nav>
+    <div class="overlay" id="overlay"></div>
+    <div class="yellow_underline"></div>
+  
+  </header>
+
+<body>
+<div class="background">
+    <div class="orange"></div>
+    <div class="yellow"></div>
+    <div class="red"></div>
+</div>
+<h1 class="title">Команда Deutsch Vektor</h1>
+
+<div class="content">
+
+    <div class="caleidoscope">
+
+        <div class="circle-container">
+            <div class="big-circle"></div>
+
+            <div class="row-1">
+                <div class="small-circle" data-image="img/caleidoscope/1.jpg" id="circle1"></div>
+            </div>
+
+            <div class="row1">
+                <div class="small-circle" data-image="img/caleidoscope/2.jpg" id="circle2"></div>
+                <div class="small-circle" data-image="img/caleidoscope/3.jpg" id="circle3"></div>
+            </div>
+
+            <div class="row2">
+                <div class="small-circle" data-image="img/caleidoscope/4.jpg" id="circle4"></div>
+                <div class="small-circle" data-image="img/caleidoscope/5.jpg" id="circle5"></div>
+            </div>
+
+            <div class="row3">
+                <div class="small-circle" data-image="img/caleidoscope/6.jpg" id="circle6"></div>
+
+                <div class="small-circle" data-image="img/caleidoscope/8.jpg" id="circle8"></div>
+            </div>
+            <div class="row-2">
+                <div class="small-circle" data-image="img/caleidoscope/7.jpg" id="circle7"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="teacher-info">
+        <div class="rectangle">
+            <div class="name-surname"></div>
+            <div class="info"></div>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="want-to-join-container">
+    <p>Бажаєте приступити до навчання?<br/> Заповнюйте анкету й крокуймо разом у світ
+        німецької!</p>
+    <button class="ind-sign"><a href="&">Залишити заявку</a></button>
+</div>
+
+</div>
+</body>
+
+<footer>
+    <div class="first-column">
+        <h2><a href="">Deutsch Vektor</a></h2>
+        <h3><a href="">Курси</a></h3>
+        <h3><a href="">Марафони</a></h3>
+        <h3><a href="">Команда</a></h3>
+        <h3><a href="">Контакти</a></h3>
+    </div>
+    <div class="second-column">
+        <h2>
+            Залишилися питання?<br>
+            З радістю відповімо!
+        </h2>
+        <h3>deutschvektor@gmail.com</h3>
+        <h3>+380(000)-000-0000</h3>
+    </div>
+    <div class="third-column">
+        <h2>
+            Cлідкуйте за нами<br>
+            у соціальних мережах:
+        </h2>
+        <a href=""><img src="img/facebook.svg"/></a>
+        <a href=""><img src="img/insta.svg"/></a>
+    </div>
+
+</footer>
+
+
+<script>
+
+    var smallCircles = document.querySelectorAll('.small-circle');
+    var bigCircle = document.querySelector('.big-circle');
+    var nameSurname = document.querySelector('.name-surname');
+    var info = document.querySelector('.info');
+
+    var defaultText = ['Ольга Єнальєва', 'Вітаю! Мене звати Ольга і моїм хобі та покликанням\n' +
+    '        ось уже 17 років є мотивувати, надихати і поринати\n' +
+    '        з Вами у світ німецької!\n' +
+    '        У моїй скринці досвіду є навчання на факультеті\n' +
+    '        німецької філології, безцінний досвід в школі з\n' +
+    '        мотивованими і не завжди учнями, викладання в\n' +
+    '        університеті, різноманітні стажування, написання\n' +
+    '        дисертації і постійний саморозвиток!\n' +
+    '        А далі? Далі своя школа, супер-круті викладачі та\n' +
+    '        платформа для вивчення німецької Deutsch\n' +
+    '        Vektor!\n' +
+    '        Якщо запитаєте про мою суперсилу - це любити те,\n' +
+    '        що роблю і ширити це захоплення іншим!\n' +
+    '        Тому, якщо у Вас в планах чи потребах вчити\n' +
+    '        німецьку - буду рада знайомству!'];
+    var defaultImage = 'img/caleidoscope/1.jpg';
+
+
+    bigCircle.style.backgroundImage = 'url(' + defaultImage + ')';
+    nameSurname.textContent = defaultText[0];
+    info.textContent = defaultText[1];
+
+    smallCircles.forEach(function (circle) {
+        circle.addEventListener('click', function () {
+            var circleId = this.id;
+            var image = this.dataset.image;
+            var texts = getTextsById(circleId);
+            var text = texts[0];
+            var text2 = texts[1];
+
+            bigCircle.style.backgroundImage = 'url(' + image + ')';
+            nameSurname.textContent = text;
+            info.textContent = text2;
+
+            smallCircles.forEach(function (circle) {
+                circle.classList.remove('clicked');
+            });
+            this.classList.add('clicked');
+        });
+    });
+
+    function getTextsById(id) {
+
+        var texts = ['', ''];
+        if (id === 'circle1') {
+
+            texts = ['Ольга Єнальєва', 'Вітаю! Мене звати Ольга і моїм хобі та покликанням\n' +
+            '        ось уже 17 років є мотивувати, надихати і поринати\n' +
+            '        з Вами у світ німецької!\n' +
+            '        У моїй скринці досвіду є навчання на факультеті\n' +
+            '        німецької філології, безцінний досвід в школі з\n' +
+            '        мотивованими і не завжди учнями, викладання в\n' +
+            '        університеті, різноманітні стажування, написання\n' +
+            '        дисертації і постійний саморозвиток!\n' +
+            '        А далі? Далі своя школа, супер-круті викладачі та\n' +
+            '        платформа для вивчення німецької Deutsch\n' +
+            '        Vektor!\n' +
+            '        Якщо запитаєте про мою суперсилу - це любити те,\n' +
+            '        що роблю і ширити це захоплення іншим!\n' +
+            '        Тому, якщо у Вас в планах чи потребах вчити\n' +
+            '        німецьку - буду рада знайомству!'];
+
+        } else if (id === 'circle2') {
+
+            texts = ['Альона Корягіна', 'Hallo alle zusammen! Привіт усім! Мене звуть Альона, і я вже більше 10 років допомагаю людям вивчати іноземні мови. На Deutsch Vektor я викладаю німецьку, тому що ця мова моя улюблена. Люблю дізнаватися щось нове, тому намагаюся більше подорожувати і викладати мови людям з різних країн.\n' +
+            'Мій улюблений метод викладання – нестандартність та різноманітність: розбавляю книжковий матеріал розмовними ситуаціями, відео з YouTube, уривками зі світових бестселерів та просто позакласним спілкуванням зі своїми учнями. Сподіваюся на активну співпрацю! І до зустрічі на заняттях!'];
+
+        } else if (id === 'circle3') {
+            texts = ['Наталя Ковальчук', 'Привіт! Мене звати Наталя і я пристрасно закохана в німецьку мову вже багато років. Я є випускницею факультету німецької філології, де набула глибоких знань і розуміння мови і культури. Мій досвід роботи включає викладання німецької в школі та проведення інтенсивних курсів для студентів. Я вірю, що вивчення мови - це відкриття нових можливостей і розширення світогляду. Я завжди готова допомогти та надихнути вас у подорожі до володіння німецькою мовою!'];
+        } else if (id === 'circle4') {
+            texts = ['Лариса Кулик', 'Мене звати Лариса і я люблю іноземні мови. Я вільно володію німецькою та англійською. Вивчаю іспанську і трохи розумію молдавську. Моє рідне село було засновано німецькими селянами-колоністами. Я з дитинства бачила надписи на будівлях і намагалась їх "розшифрувати". Мені цікаво і я ділюсь з задоволенням своєю здатністю цікавитись і пробувати нове.\n' +
+            'Німецька мова, для мене особисто, це можливість спілкуватись. І правила її граматики – це можливість ясно і чітко висловити думку та бути цікавим співрозмовником. Все моє життя пов\'язано з Німеччиною та німецькою мовою. Я прожила 2 чудових роки в Німеччині. Працювала в бізнесі й згодом вирішила, що моїх університетьских знань та досвіду достатньо, щоб ними ділитися.\n' +
+            'Німецька – це легко і просто! Хочете спробувати? Починайте. Я допоможу і підтримаю!'];
+        } else if (id === 'circle5') {
+            texts = ['Уляна Станкевич', 'Hallöchen! Привітики!\n'+
+            'Давайте познайомимось!\n'+
+            'Мене звати Уляна. Я репетитор мовної школи Deutsch Vektor. Моя улюблена справа - давати знання, тому що знання - це сила! Я - life-long learner, постійно навчаюся та вдосконалююся в області німецької мови: наукові конференції, семінари та вебінари.' +
+            'Стаж викладацької діяльності понад 20 років. Навчаю з любов\'ю! Захоплююся вивченням інших іноземних мов, зокрема: польською, англійською, французькою. Люблю поезію, мистецтво, подорожі. ' +
+            'Сподіваюся, що заняття зі мною будуть для Вас продуктивними та цікавими)'+
+            'До зустрічі!'];
+        } else if (id === 'circle6') {
+            texts = ['Оксана Шмигельська', 'Вітаю. Мене звати Оксана. Я вчитель німецької мови з 15-річним досвідом роботи в школі та великим бажанням ділитися своїми знаннями й вміннями, адже вважаю, що хороший той вчитель, учні якого перевершують його самого.\n' +
+            'Чому саме іноземна мова? Тому що це цікаво, актуально, та відкриває багато можливостей. І як казав Й. В. Гете "Скільки мов ти знаєш - стільки разів ти людина".'];
+        } else if (id === 'circle7') {
+            texts = ['Тетяна Плесконос', 'Мене звати Тетяна і моя любов – вчителювання.\n' +
+            'Викладання німецької мови – це моє захоплення і покликання душі, постійні відкриття та особисте зростання. Маю близько 12 років досвіду роботи викладання німецької, але я ніколи не припиняю вчитися. Намагаюся надихати учнів своєю пристрастю та любов’ю до німецької мови, Німеччини.\n' +
+            'Секрет? „Es muss von Herzen kommen, was auf Herzen wirken soll“ – сказав Гете. Тоді просто не помічаєш, скільки часу, зусиль та енергії вкладено. Але точно знаєш, що воно того варте.'];
+        } else if (id === 'circle8') {
+            texts = ['Тетяна Ворона', 'Всім привіт! Мене звати Тетяна і я з задоволенням викладаю німецьку мову вже понад сім років. Моє життєве переконання полягає в тому, що вчити мову корисно всім: комусь для роботи, комусь для навчання, а комусь взагалі для саморозвитку.\n' +
+            'Маю досвід проведення індивідуальних та групових занять. Ціную індивідуальність кожного учня й прикладаю зусиль, щоб зробити заняття максимально продуктивним та цікавим. Саме тому широко використовую інтерактивні вправи, електронні ресурси та тематичні відео.\n' +
+            'Я думаю, що моя суперсила полягає в тому, що я шукаю підхід до кожного учня й допомагаю впевнено рухатися до мети.'];
+        }
+        return texts;
+    }
+
+
+</script>
+
+
+<script>
+    const menuButton = document.getElementById('menuButton');
+    const overlay = document.getElementById('overlay');
+    const sideMenu = document.querySelector('.sidebar');
+  
+    menuButton.addEventListener('click', () => {
+      sideMenu.style.right = '0';
+      overlay.style.display = 'block';
+    });
+  
+    overlay.addEventListener('click', () => {
+      sideMenu.style.right = '-350px'; // Приховати меню
+      overlay.style.display = 'none'; // Приховати затемнення
+    });
+  </script>
+</html>
