@@ -1,0 +1,313 @@
+.yellow_underline {
+    right: 24.8%;
+
+}
+
+.nav .team_nav {
+    font-weight: 600;
+}
+
+.content {
+    max-width: 1130px;
+    width: 90.2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+
+    /* width: 791px; */
+    /* height: 186px; */
+    /* top: 85px; */
+    /* left: 50%; */
+    /* transform: translate(-50%, 0%); */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 87px;
+    text-align: center;
+    color: #000000;
+}
+
+.want-to-join-container {
+    /* position: absolute; */
+    /* max-width: 1170px;
+    width: 90.2%;
+    height: 144px;
+    /* left: 50%;
+    transform: translate(-50%, 0%);
+    top: 850px; */
+    /* margin-top: 30px;
+
+    background: #FAFAFA;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; */
+
+    width: 82%;
+    height: 144px;
+    background: #f6ba13;
+    /* box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15); */
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    margin-top: 30px;
+
+    max-width: 1180px;
+}
+
+.want-to-join-container p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #000000;
+}
+
+.rectangle {
+    width: 570px;
+    max-height: 526px;
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+
+
+}
+
+
+.name-surname {
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 48px;
+    color: #000000;
+    padding: 35px 35px 10px 35px;
+}
+
+.info {
+    /* position: absolute; */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #000000;
+
+    /* width: 502px;
+    height: 337px;
+    left: 34px;
+    bottom: 87px; */
+    padding: 0 35px 35px;
+
+}
+
+
+.circle-container {
+    width: 480px;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.row-1, .row-2 {
+    margin: -60px;
+}
+
+.row1 {
+    width: 375px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row2 {
+    width: 480px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row3 {
+    width: 375px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caleidoscope {
+    width: 500px;
+    height: 500px;
+}
+
+.big-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: lightgray;
+
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+
+.small-circle {
+
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: darkgray;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#circle1 {
+
+
+    background-image: url('../img/caleidoscope/1.jpg');
+
+}
+
+#circle2 {
+
+
+    background-image: url('../img/caleidoscope/2.jpg');
+
+}
+
+#circle3 {
+
+
+    background-image: url('../img/caleidoscope/3.jpg');
+
+}
+
+#circle4 {
+
+
+    background-image: url('../img/caleidoscope/4.jpg');
+
+}
+
+#circle5 {
+
+
+    background-image: url('../img/caleidoscope/5.jpg');
+
+}
+
+#circle6 {
+
+
+    background-image: url('../img/caleidoscope/6.jpg');
+
+}
+
+#circle7 {
+
+
+    background-image: url('../img/caleidoscope/7.jpg');
+
+}
+
+#circle8 {
+
+
+    background-image: url('../img/caleidoscope/8.jpg');
+
+}
+
+.small-circle.clicked {
+
+    color: black;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+.big-circle img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+footer {
+    left: 0px;
+    top: 1104px;
+}
+
+.ind-sign {
+
+    width: 252px;
+    height: 50px;
+    left: 259px;
+    bottom: 53px;
+    border: none;
+
+    background: #000500;
+    border-radius: 10px;
+
+}
+
+.ind-sign a {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-decoration: none;
+
+    color: #f6ba13;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+@media(max-width:1200px){
+.content{
+    flex-direction: column;
+}
+}

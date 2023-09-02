@@ -1,0 +1,447 @@
+/* COURSES BOLD TEXT */
+.nav .course_nav {
+    font-weight: 600;
+}
+
+.yellow_underline {
+    right: 73.7%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    margin: 0;
+    background-color: #F1f0f0;
+}
+
+
+h1 {
+    /* position: absolute;
+    width: 212px;
+    height: 70px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    top: 131px; */
+    /* padding-top: 90px; */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 87px;
+    text-align: center;
+    color: #000000;
+}
+
+.individual-container, .pair-container, .groups-container, .talk-club-container {
+    /* position: absolute; */ 
+    max-width: 1300px;
+    width: 90.2%;
+    height: 736px;
+    /* left: 50%; */
+    /* transform: translate(-50%, 0%); */
+    /* top: 281px; */
+    background-color: rgba(0, 0, 0, 50%);
+    background-position: center center;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+
+    margin: 12px 0px;
+}
+
+.individual-content {
+    /* margin: 184px 65px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 93%;
+}
+
+
+
+.individual-container {
+    background: url("../img/background/individual.jpg"), lightgray 50% / cover no-repeat;
+}
+
+.pair-container {
+    background-image: url("../img/background/pair.jpg");;
+}
+
+.groups-container {
+    background-image: url("../img/background/groups.jpg");
+}
+
+.talk-club-container {
+    background-image: url("../img/background/talk-club.jpg");
+}
+
+.yellow-background, .red-background, .black-background, .orange-background {
+
+    /* position: absolute; */
+    width: 500px;
+    height: 368px;
+    border-radius: 30px 0px 0px 30px;
+    /* line-height: 1.5; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    padding: 0 20px 0 50px;
+}
+
+.yellow-background {
+    background: #F6BA13;
+    color: #000000;
+}
+
+.red-background {
+    background: #BE2323;
+    color: #FFFFFF;
+}
+
+.black-background {
+    background: #000500;
+    color: #FFFFFF;
+}
+
+.orange-background {
+    background: #E77728;
+    color: #FFFFFF;
+}
+
+
+.white-background {
+    /* position: absolute; */ 
+    width: 570px;
+    height: 368px;
+    background: #FAFAFA;
+    border-radius: 0px 30px 30px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.white-background h2 {
+    /* position: absolute; */
+    width: 186px;
+    height: 33px;
+    margin-top: 36px;
+    /* margin-bottom: 0; */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+
+    text-align: center;
+
+}
+
+.price-buy{
+    flex-direction: row;
+    /* height: 134px; */
+    display: flex;
+    width: 79.2%;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+/* @media(max-width:768px){
+.white-background{
+    width: 88.5%;
+    height: 368px;
+    background: #FAFAFA;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+} */
+
+
+.individual-container .white-background h2 {
+    background: linear-gradient(119.32deg, #F6BA13 58.14%, #DD7F4A 141.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.pair-container .white-background h2 {
+    background: linear-gradient(121.29deg, #BE2323 26.09%, #A92C2C 87.49%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.groups-container .white-background h2 {
+    left: 227px;
+    background: linear-gradient(113.12deg, #3E3E3E 27.79%, #000000 128.41%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.talk-club-container .white-background h2 {
+    left: 189px;
+    width: 192px;
+    background: linear-gradient(113.12deg, #DD7F4A 49.86%, #BE2323 128.41%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ind-sign {
+    /* position: absolute; */
+    width: 252px;
+    height: 50px;
+    left: 259px;
+    bottom: 53px;
+    border: none;
+
+    border-radius: 10px;
+}
+
+.individual-container .ind-sign {
+    background: linear-gradient(119.32deg, #F6BA13 58.14%, #DD7F4A 141.96%);
+    box-shadow: 2px 2px 8px rgba(255, 208, 182, 0.5), inset 1px 1px 2px rgba(255, 248, 228, 0.35),
+    inset -2px -2px 4px rgba(255, 248, 228, 0.35);
+}
+
+.pair-container .ind-sign {
+    background: linear-gradient(121.29deg, #BE2323 26.09%, #A92C2C 87.49%);
+
+    box-shadow: 2px 2px 8px rgba(255, 182, 182, 0.5),
+    inset 1px 1px 2px rgba(255, 228, 228, 0.35), inset -2px -2px 4px rgba(255, 228, 228, 0.35);
+}
+
+.groups-container .ind-sign {
+    background: linear-gradient(113.12deg, #3E3E3E 27.79%, #000000 128.41%);
+
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25), inset 1px 1px 2px rgba(217, 217, 217, 0.35),
+    inset -2px -2px 4px rgba(173, 173, 173, 0.35);
+}
+
+.talk-club-container .ind-sign {
+    background: linear-gradient(113.12deg, #DD7F4A 49.86%, #BE2323 128.41%);
+
+    box-shadow: 2px 2px 8px rgba(255, 208, 182, 0.5), inset 1px 1px 2px rgba(255, 238, 228, 0.35), inset -2px -2px 4px rgba(255, 241, 228, 0.35);
+}
+
+.ind-sign a {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+
+.individual-container .ind-sign a {
+    color: #000500;
+}
+
+.test-offer .ind-sign a{
+    color: #F6BA13;
+}
+
+#price {
+    /* position: absolute; */
+    /* width: 106px; */
+    /* height: 33px; */
+    /* right: 368px; */
+    /* top: 252px; */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 23px;
+
+    color: #000000;
+    padding-left: 10px;
+    
+}
+
+.individual-container #price{
+    /* padding-left: 25px; */
+}
+
+.pair-container #price {
+    width: 156px;
+    right: 339px;
+}
+
+.groups-container #price {
+    width: 158px;
+    right: 342px;
+}
+
+.talk-club-container #price {
+    width: 141px;
+    /* height: 41px; */
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.flex-container p {
+
+
+    margin: 0;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 79.2%;
+    height: 134px;
+    /* margin: 105px 59px; */
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.flex-container div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 36px;
+
+    border-radius: 10px;
+    transition: padding 0.5s ease;
+    padding: 0;
+}
+
+.individual-container .flex-container div {
+    background: #F6BA13;
+}
+
+.pair-container .flex-container div {
+    background: #BE2323;
+}
+
+.groups-container .flex-container div {
+    background: #000500;
+}
+
+.talk-club-container .flex-container div {
+    background: #E77728;
+}
+
+.flex-container p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+
+}
+
+.individual-container .flex-container p {
+    color: #000500;
+}
+
+.flex-container #target, #materials {
+    width: 57.5%;
+}
+
+.flex-container #age, #level {
+    width: 39.8%;
+}
+
+.flex-container #platform {
+    width: 452px;
+}
+
+@media(max-width:1265px){
+    .flex-container div{
+        padding: 3px 1px;
+    }
+
+    #price{
+        margin-right: 10px;
+        padding-left: 0px;
+    }
+
+    .individual-container #price{
+        padding-left: 0px;
+    }
+
+
+}
+
+
+.test-offer {
+    width: 82%;
+    height: 144px;
+
+
+    background: #f6ba13;
+    /* box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15); */
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4.5%;
+    margin: 12px 0px;
+    max-width: 1080px;
+
+}
+
+.test-offer p {
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #000000;
+}
+
+.test-offer span {
+    font-weight: 700;
+}
+
+.test-offer .ind-sign {
+    position: static;
+    background: #000500;
+}
+
+.loyal-class{
+    display: flex;
+    color: #ADADAD;
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+align-items: center;
+}
+
+.loyal-class img{
+    padding-left:5px ;
+    width: 15px;
+    height: 15px;
+}
+
+
+

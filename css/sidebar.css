@@ -1,0 +1,78 @@
+.sidebar{
+    width: 350px;
+    height: 100vh;
+    position: fixed;
+    background: #FFF;
+    z-index: 2;
+    transition: right 0.3s ease;
+}
+
+li{
+    
+    text-align: center;
+    /* Manrope 48pt */
+    font-family: Manrope;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    list-style: none;
+    text-align: left; 
+  
+}
+
+a{
+    text-decoration: none;
+    color: #000500;
+}
+
+ul{
+    text-align: left;
+}
+
+
+.sidebar{
+    color: #000;
+text-align: left;
+/* Manrope 24pt */
+font-family: Manrope;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+right: -350px;
+top:0px;
+}
+
+/* .yellow_underline{
+    width: 191px;
+height: 3px;
+color: #F6BA13;
+} */
+
+.sidebar-text{
+    color: #868686;
+}
+
+/* Стилі для затемнення */
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+  }
+  
+  /* Стилі для бокового меню */
+  /* .sideMenu {
+    position: fixed;
+    top: 0;
+    left: -300px; 
+    width: 300px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+  } */

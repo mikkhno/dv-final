@@ -1,0 +1,618 @@
+
+body{
+    background: #F1f0f0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    margin: 0;
+}
+
+
+.yellow_underline {
+    left: 40.5%;
+
+}
+
+.nav .marathons_nav {
+    font-weight: 600;
+}
+
+.marathons-title {
+    /* position: absolute; */
+    width: 336px;
+    height: 87px;
+    padding-top: 40px;
+    margin:0;
+    /* Manrope 64pt */
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 87px;
+
+    color: #000000;
+}
+
+.how-works-text {
+
+    /* padding-top: 130px; */
+
+    /* Manrope 48pt */
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 66px;
+
+    text-align: center;
+
+    color: #000000;
+    margin: 32px;
+
+}
+
+.three-steps-container {
+
+
+    /* padding-top: 50px; */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1170px;
+    width: 90.2%;
+    max-height: 750px;
+}
+
+@media (max-width:1225px) {
+    .three-steps-container{
+        flex-direction: column;
+    }
+    .three-steps-container div {
+        margin-bottom: 30px;
+    }
+}
+
+.three-steps-container div {
+
+    width: 370px;
+    height: 230px;
+
+    background: #FFFFFF;
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+.three-steps-container p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+.three-steps-container h1 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 87px;
+    margin: 0;
+}
+
+.three-steps-container h2 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 10px;
+    margin: 0;
+}
+
+.vektor-says {
+    /* position: absolute; */
+    max-width: 1170px;
+    width: 81.25%;
+    /* align-self: self-end; */
+    padding-top: 52px;
+    height: 215px;
+    /* padding-right: 165px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: stretch;
+    align-items: flex-end;
+}
+
+.sms-box {
+    /* position: absolute; */
+    width: 578px;
+    height: 143px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+
+    background: linear-gradient(119.32deg, #F6BA13 58.14%, #DD7F4A 141.96%);
+
+
+    box-shadow: 3.43791px 3.43791px 13.7516px rgba(255, 208, 182, 0.5), inset 1.71895px 1.71895px 3.43791px rgba(255, 248, 228, 0.35), inset -3.43791px -3.43791px 6.87582px rgba(255, 248, 228, 0.35);
+    border-radius: 30px 30px 0px 30px;
+}
+
+.sms-box p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    /* text-align: left; */
+
+}
+
+.vektor-says img {
+    /* position: absolute; */
+    width: 122px;
+    height: 120px;
+    /* right: 0%; */
+    /* bottom: 0%; */
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    padding-left: 540px;
+
+}
+
+.available-topic-txt {
+    /* position: absolute; */
+    width: 629px;
+    height: 66px;
+    /* left: calc(50% - 562px / 2);
+    top: 1096px; */
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 66px;
+    /* padding-top: 20px; */
+    margin: 32px;
+}
+
+.topic-1 {
+
+    width: 90.2%;
+    max-width: 1170px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: box-shadow 0.5s, filter 0.5s ease-out;
+
+}
+
+.topic-2 {
+    width: 90.2%;
+    max-width: 1170px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 32px;
+    transition: box-shadow 0.5s, filter 0.5s;
+}
+
+.left-part {
+    width: 585px;
+    height: 600px;
+    background-position: center;
+    border-radius: 50px 0px 0px 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.topic-1 .left-part{
+    background-image: url("../img/marathons-pronomen.jpg");
+}
+
+.topic-2 .left-part{
+    background-image: url("../img/marathons-praep.jpg");
+}
+
+.white-background {
+
+    width: 505px;
+    height: 500px;
+    background: #FFFFFF;
+
+    border-radius: 0px 50px 50px 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.white-background h1 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    margin: 0 0 10px 0;
+
+
+    color: #F6BA13;
+
+}
+
+.white-background h3 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0;
+}
+
+#lot1 ul, #lot2 ul {
+    width: 432px;
+    height: 250px;
+    margin: 0;
+}
+
+/* #lot2 ul {
+    width: 493px;
+    height: 290px;
+    margin: 0;
+} */
+
+
+.list-of-topics ul {
+    list-style: none;
+    padding: 0;
+}
+
+.list-of-topics li {
+    text-align: left;
+    height: 36px;
+    border-radius: 10px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    background: #f6ba13;
+        padding: 0px 22px;
+    display: inline-block;
+
+}
+
+#lot1.list-of-topics li{
+    margin-bottom: 13px;
+}
+
+#lot2.list-of-topics li{
+    margin-bottom: 6px;
+}
+
+.price-buy {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 55px;
+}
+
+
+.standart-butt{
+    width: 114px;
+    height: 30px;
+    border-radius: 10px;
+    background: #EBEBEB;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 8px;
+
+
+}
+
+.plus-butt{
+    width: 114px;
+    height: 30px;
+    border-radius: 10px;
+    background: #000500;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 8px;
+}
+
+.standart-butt h3{
+    color: #000500;
+
+}
+
+.plus-butt h3{
+    color:#F6BA13;
+}
+
+.standart-butt h3, .plus-butt h3{
+    text-align: center;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    margin: 0;
+}
+
+.ind-sign {
+    width: 202px;
+    height: 55px;
+    border: none;
+
+    /* border-radius: 10px;
+    background: linear-gradient(119.32deg, #F6BA13 58.14%, #DD7F4A 141.96%);
+    box-shadow: 2px 2px 8px rgba(255, 208, 182, 0.5), inset 1px 1px 2px rgba(255, 248, 228, 0.35),
+    inset -2px -2px 4px rgba(255, 248, 228, 0.35); */
+
+    border-radius: 20px;
+background: linear-gradient(177deg, #F6BA13 30.73%, #DD7F4A 100%);
+
+/* orange_glassmorph */
+box-shadow: -4px -4px 8px 0px rgba(255, 248, 228, 0.35) inset, 2px 2px 4px 0px rgba(255, 248, 228, 0.35) inset, 4px 4px 16px 0px rgba(255, 208, 182, 0.50);
+}
+
+.ind-sign a {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-decoration: none;
+    color: #000500;
+}
+
+.price {
+    width: 166px;
+    height: 33px;
+    right: 368px;
+    top: 252px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #000000;
+    margin: 0;
+}
+
+.marathons-priveleges-title {
+    /* position: absolute;
+    width: 562px;
+    height: 74px;
+    left: calc(50% - 562px / 2);
+    top: 2561px; */
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    margin: 32px;
+    line-height: 66px;
+}
+
+.priveleges-container {
+    /* position: absolute; */
+    max-width: 1170px;
+    width: 90.2%;
+    height: 1114px;
+    /* left: 50%; */
+    /* transform: translate(-50%, 0%); */
+    /* top: 2699px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.priv-box {
+    max-width: 1130px;
+    width: 90.2vw;
+    height: 310px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.pic-box {
+    width: 267px;
+    height: 267px;
+    background: #F6BA13;
+    border-radius: 30px;
+}
+
+#p-b1 {
+    background-image: url('../img/marathons/box-1.jpg');
+    background-position: center;
+}
+
+#p-b2 {
+    background-image: url('../img/marathons/box-2.jpg');
+    background-position: center;
+}
+
+#p-b3 {
+    background-image: url('../img/marathons/box-3.jpg');
+    background-position: center;
+}
+
+.priv-text {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 60%;
+}
+
+.choose-topic-container {
+    /* position: absolute; */
+    margin-top: 32px;
+    max-width: 1130px;
+    width: 90.2%;
+    height: 200px;
+    /* left: 50%; */
+    /* transform: translate(-50%, 0%); */
+    /* top: 3911px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+
+    background: linear-gradient(119.32deg, #F6BA13 58.14%, #DD7F4A 141.96%);
+    box-shadow: 3.43791px 3.43791px 13.7516px rgba(255, 208, 182, 0.5), inset 1.71895px 1.71895px 3.43791px rgba(255, 248, 228, 0.35), inset -3.43791px -3.43791px 6.87582px rgba(255, 248, 228, 0.35);
+    border-radius: 30px;
+}
+
+.choose-topic-container p:nth-child(2) {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    margin-left: 30px;
+}
+
+.choose-topic-container p:nth-child(1) {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    margin-left: 30px;
+
+}
+
+.choose-topic-container img {
+    /* position: absolute; */
+    width: 200px;
+    height: 200px;
+    left: 960px;
+    top: -10px;
+}
+
+.priv-box h2 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 66px;
+    margin: 0;
+
+    background: linear-gradient(119.32deg, #F6BA13 58.14%, #DD7F4A 141.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.priv-box p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    margin: 0;
+}
+
+.privelege-plus {
+
+    width: 88px;
+    height: 31px;
+    background: linear-gradient(119.32deg, #F6BA13 58.14%, #DD7F4A 141.96%);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.privelege-plus p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #000500;
+}
+
+.text-container{
+    flex-basis: 60%;
+}
+
+.type-price{
+
+display: flex;
+flex-direction: column;
+padding-right: 50px;
+}
+
+.switchers{
+    width: 269px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 32px;
+}
+
+.standart-type{
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+
+    border-radius: 4px;
+background: #000500;
+/* background:linear-gradient(177deg, #F6BA13 30.73%, #DD7F4A 100%); */
+}
+
+.paketplus-type{
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+
+    border-radius: 4px;
+background: #F6BA13;
+}
+
+.left-part p{
+    font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+width: 300px;
+}
+
+
+.animated {
+    box-shadow: -4px -4px 8px 0px rgba(255, 248, 228, 0.35) inset, 2px 2px 4px 0px rgba(255, 248, 228, 0.35) inset;
+    filter: drop-shadow(4px 4px 16px rgba(255, 208, 182, 0.50));
+}
