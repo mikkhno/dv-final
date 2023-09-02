@@ -1,0 +1,219 @@
+.we-are-container {
+    /* position: absolute; */
+    margin-top: 100px;
+    width: 100vw;
+    height: 1000px;
+    /* left: 0px; */
+    /* top: 857px; */
+    background-color: #F6BA13;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.headline,
+.desc {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+}
+
+.headline {
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 100%;
+    background: #000500;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.info {
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+.message-format {
+    /* position: absolute; */
+    width: 390px;
+    height: 218px;
+    left: 265px;
+    /* top: 129px; */
+}
+
+.message-box-white,
+.message-box-60op,
+.message-box-40op {
+    position: absolute;
+    width: 390px;
+    height: 198px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1), inset 2px 2px 4px rgba(255, 234, 228, 0.25), inset -4px -4px 8px rgba(255, 241, 228, 0.85);
+    border-radius: 30px;
+}
+
+.message-box-60op {
+    opacity: 0.6;
+    top: 10px;
+}
+
+.message-box-40op {
+    opacity: 0.4;
+    top: 20px;
+}
+
+.message-title h3 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    margin-left: 70px;
+}
+
+.message-title#format,
+.message-title#enjoy,
+.message-title#master,
+.message-title#love {
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    left: 29px;
+    top: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dec-buttons {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 47px;
+    height: 20px;
+    right: 22px;
+    top: 21px;
+}
+
+.hide-butt,
+.close-butt {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F6BA13;
+    box-shadow: 4px 4px 16px rgba(173, 173, 173, 0.19), inset 2px 2px 4px rgba(250, 232, 180, 0.35), inset -4px -4px 8px rgba(217, 185, 89, 0.35);
+}
+
+.mes-f,
+.mes-e,
+.mes-m,
+.mes-l {
+    position: absolute;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+
+}
+
+
+.mes-e p,
+.mes-m p,
+.mes-l p {
+    margin: 0;
+}
+
+.mes-f {
+    width: 325px;
+    height: 76px;
+    left: 35px;
+    top: 75px;
+}
+
+.mes-e,
+.mes-m,
+.mes-l {
+    width: 333px;
+    height: 51px;
+    left: 38px;
+}
+
+.mes-e {
+    bottom: 56px;
+}
+
+.mes-m {
+    bottom: 43px;
+}
+
+.mes-l {
+    bottom: 56px;
+}
+
+.message-enjoy {
+
+    width: 390px;
+    height: 218px;
+    left: 785px;
+    /* top: 84px; */
+}
+
+.message-master {
+
+    width: 390px;
+    height: 218px;
+    left: 267px;
+    /* top: 653px; */
+}
+
+.message-love {
+
+    width: 390px;
+    height: 218px;
+    left: 785px;
+    /* top: 684px; */
+}
+
+.yellow-transition-line-top {
+    width: 100vw;
+    height: 67px;
+    flex-shrink: 0;
+    background: #F6BA13;
+    filter: blur(10px);
+    margin-top: -3%;
+}
+
+
+
+.yellow-transition-line-bttm {
+    width: 100vw;
+    height: 67px;
+    flex-shrink: 0;
+    background: #F6BA13;
+    filter: blur(10px);
+    margin-bottom: -3%;
+}
+
+.first-line, .second-line{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1170px;
+    width: 81.25vw;
+}
+
+.we-are-container *{
+        opacity: 0;
+        transition: opacity 0.3s ease; /* Плавне перехід упродовж 1 секунди */
+
+}

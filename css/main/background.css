@@ -1,0 +1,55 @@
+
+/*.background{*/
+/*    left: 50%;*/
+/*    top: 0%;*/
+/*    transform: translate(-50%, 0%);*/
+/*}*/
+
+.orange{
+
+    position: absolute;
+    width: 14.63%;
+    height: 33.79%;
+    left: 1.61%;
+    top: 68.86%;
+
+    /* orange_morph */
+
+    background: linear-gradient(180deg, #E77728 0%, #FFA769 100%);
+    opacity: 0.4;
+    filter: blur(75px);
+    z-index: -1;
+}
+
+.yellow{
+    position: absolute;
+    width: 16.61%;
+    height: 40.82%;
+    left: 66.39%;
+    top: 52.66%;
+    background: #F6BA13;
+    opacity: 0.4;
+    filter: blur(75px);
+    z-index: -1;}
+
+/* yellow */
+.red{
+    position: absolute;
+    width: 29.04%;
+    height: 50.13%;
+    left: 21.67%;
+    top: 1.14%;
+    z-index: -1;
+
+    /* red_circles */
+
+    background: linear-gradient(180deg, #FF8181 0%, #FFB47E 100%);
+    opacity: 0.4;
+    filter: blur(75px);
+    transform: matrix(0.7, 0.72, -0.72, 0.7, 0, 0);
+
+}
+
+.background{
+    z-index: -1;
+}

@@ -1,0 +1,193 @@
+.our-advantages-container{
+    /* position: absolute; */
+    max-width: 1270px;
+    height: 790px;
+    width: 81.25%;
+
+    align-items: center;
+    /* justify-content: space-between; */
+    display: flex;
+}
+
+.our-advantages-text{
+
+    /* position: absolute; */
+    width: 186px;
+    height: 36px;
+    left: 109px;
+    top: 228px;
+    margin: 0;
+
+    /* Manrope 24pt */
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+
+    /* black */
+
+    color: #000500;
+}
+
+.why-we-animation{
+
+    /* position: absolute; */
+    left: 111px;
+    top: 251px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 87px;
+
+    /* Linear */
+
+    color: #000500;
+    margin: 0;
+}
+
+.test-script{
+    /* position: absolute; */
+    width: 468px;
+    left: 114px;
+    top: 379px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+
+    /* black */
+
+    color: #000500;
+    margin: 0;
+}
+
+
+
+.img-circle{
+    width: 400px;
+    height: 400px;
+    background-color: #dddddd;
+    border-radius: 50%;
+    transition: 0.3s ease;
+    background-size: cover;
+}
+
+.little-circles{
+    /* position: absolute; */
+    width: 200px;
+    height: 478px;
+    top: 131px;
+    left: 600px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+
+}
+
+#c-1{
+
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+
+    background: linear-gradient(113.12deg, #3E3E3E 27.79%, #000000 128.41%);
+    /* black_circle_moprh */
+
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.1), inset 2px 2px 4px rgba(216, 216, 216, 0.35), inset -4px -4px 8px rgba(235, 235, 235, 0.35);
+}
+
+#c-2{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+
+    background: linear-gradient(119.32deg, #F6BA13 58.14%, #DD7F4A 141.96%);
+    /* orange_glassmorph */
+
+    box-shadow: 4px 4px 16px rgba(255, 208, 182, 0.5), inset 2px 2px 4px rgba(255, 248, 228, 0.35),
+    inset -4px -4px 8px rgba(255, 248, 228, 0.35);
+}
+
+#c-3{
+
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+
+    background: linear-gradient(121.29deg, #BE2323 26.09%, #A92C2C 87.49%);
+    /* red_circle_moprh */
+
+    box-shadow: 4px 4px 16px rgba(255, 182, 182, 0.5), inset 2px 2px 4px rgba(255, 228, 228, 0.35), inset -4px -4px 8px rgba(255, 228, 228, 0.35);
+}
+
+.adv-circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.advantages-puncts{
+    margin-top: 20px;
+    position: absolute;
+    width: 387px;
+    height: 136px;
+    left: 116px;
+    top: 444px;
+}
+
+.advantages-puncts .advantage {
+    background: #BE2323;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#adv1 {
+    width: 300px;
+    height: 40px;
+}
+
+#adv2 {
+    width: 352px;
+    height: 40px;
+}
+
+#adv3 {
+    width: 387px;
+    height: 40px;
+}
+
+.advantage p{
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #FFFFFF;
+
+}
+
+.right-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 672px;
+}
+
+

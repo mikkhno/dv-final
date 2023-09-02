@@ -1,0 +1,163 @@
+.offers-container{
+    max-width: 1270px;
+    width: 100vw;
+    height: 910px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.we-offer{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000500;
+    margin: 0;
+}
+
+.offers-animation{
+    /* position: absolute; */
+    width: 575px;
+    height: 65px;
+    right:183px;
+    top: 230px;
+    text-align: left;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80%;
+    text-align: center;
+
+    background: linear-gradient(119.32deg, #F6BA13 58.14%, #DD7F4A 141.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.also{
+    /* position: absolute; */
+    width: 80px;
+    height: 25px;
+    right: 634px;
+    top: 320px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #000500;
+    margin: 0 0 15px 0;
+
+}
+
+.advantages{
+    /* position: absolute; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 570px;
+    height: 130px;
+    right:150px;
+    bottom: 283px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.offer_level,
+.offer_teacher,
+.offer_recommendations,
+.offer_studying {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(50% - 10px);
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.offer_level h3,
+.offer_teacher h3,
+.offer_recommendations h3,
+.offer_studying h3 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 70px;
+    text-align: left;
+}
+
+#color-circle {
+    /* position: absolute; */
+    width: 530px;
+    height: 530px;
+    left: 121px;
+    top: 124px;
+    border-radius: 50%;
+    background-color: #F6BA13;
+    transition: background-color 1s ease-out;
+    margin-left: -20px; 
+}
+
+
+#offers-slider {
+    /* position: absolute; */
+    width: 603px;
+   
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 87px;
+
+    color: #F6BA13;
+    text-transform: uppercase;
+    transition: color 0.6s ease-in-out;
+    margin: 0;
+}
+
+#offer-image{
+    /* position: absolute; */
+    width: 529px;
+    /* left: 0px; */
+    /* top: 2px; */
+    transition: color 2s cubic-bezier(0.8, 0.01, 1, 1);
+}
+
+.proposals-butt{
+    left: 717px;
+    bottom: 218px;
+}
+
+.our-team-butt{
+    right: 250px;
+    bottom: 218px;
+}
+
+.left-right-butt{
+    width: 60px;
+    height: 60px;
+    border: none;
+    background: none;
+
+}
+
+.slider-buttons{
+    width: 200px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 290px;
+    position: absolute;
+    top: 660px;
+    display: none;
+}
+

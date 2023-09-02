@@ -1,0 +1,304 @@
+html {
+    scroll-behavior: smooth; /* Додати плавну анімацію прокручування */
+  }
+
+.nav .main_nav {
+    font-weight: 600;
+}
+
+.yellow_underline {
+    right: 83.82%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    margin: 0;
+}
+
+.dv_title {
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    color: #000500;
+    margin: 0;
+}
+
+.highlighted {
+    background: linear-gradient(119.32deg, #F6BA13 58.14%, #DD7F4A 141.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-content {
+    /* position: absolute; */
+    max-width: 1170px;
+    width: 81.25vw;
+    min-height: 628px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dv_subtitle {
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000500;
+    margin: 19px 0 40px 0;
+}
+
+.vektor {
+
+    width: 543.79px;
+    height: 627.2px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vektor-circle {
+    /* position: absolute; */
+    width: 543.79px;
+    height: 543.79px;
+
+    border-radius: 50%;
+    background: radial-gradient(240.9% 208.36% at 79% 23.78%, #F15656 0%, #F6BA13 88.63%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 0px 10px 20px rgba(190, 35, 35, 0.4), inset 2px 2px 20px rgba(255, 248, 228, 0.4), inset -6px -6px 20px #FFF8E4;
+}
+
+.vektor-img {
+    position: absolute;
+    width: 364.29px;
+    height: 627.2px;
+    margin-bottom: 40px;
+
+}
+.more-info-butt, .proposals-butt {
+    /* position: absolute; */
+    width: 225.81px;
+    height: 48.25px;
+    background: linear-gradient(119.32deg, #F6BA13 58.14%, #DD7F4A 141.96%);
+    box-shadow: 0px 8.46509px 16.9302px rgba(242, 188, 27, 0.6), inset 1.69302px 1.69302px 3.38604px rgba(255, 248, 228, 0.25), inset -3.38604px -3.38604px 6.77207px rgba(255, 248, 228, 0.85);
+    border-radius: 30px;
+    border: none;
+}
+
+
+.more-info-butt a, .proposals-butt a {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: #000500;
+    transition: color 0.8s ease-in-out;
+}
+
+.offers-butt, .our-team-butt {
+    box-sizing: border-box;
+    
+    border: 2px solid #F6BA13;
+    border-radius: 30px;
+    padding: 10.5px 45px;
+    margin-left: 10px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 44px;
+
+    text-decoration: none;
+    color: #F6BA13;
+    text-align: center;
+    transition: color 0.8s ease-in-out;
+}
+
+.offers-butt {
+    left: 239px;
+    top: 359px;
+}
+
+.yellow-rect {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(119.32deg, #F6BA13 58.14%, #DD7F4A 141.96%);
+    box-shadow: 2px 2px 8px rgba(255, 208, 182, 0.5), inset 1px 1px 2px rgba(255, 248, 228, 0.35), inset -2px -2px 4px rgba(255, 248, 228, 0.35);
+    border-radius: 15px;
+    transition: color 0.8s ease-in-out;
+}
+
+
+
+.priveleges {
+    display: flex;
+    flex-wrap: wrap;
+    width: 520px;
+    height: 120px;
+
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 44px;
+}
+
+.comfort-format,
+.comfort-process,
+.choosing-master,
+.love-german {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(50% - 10px);
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.yellow-rect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(119.32deg, #F6BA13 58.14%, #DD7F4A 141.96%);
+    box-shadow: 2px 2px 8px rgba(255, 208, 182, 0.5), inset 1px 1px 2px rgba(255, 248, 228, 0.35), inset -2px -2px 4px rgba(255, 248, 228, 0.35);
+    border-radius: 15px;
+}
+
+.yellow-rect img {
+    width: 30px;
+    height: 30px;
+}
+
+.comfort-format h3,
+.comfort-process h3,
+.choosing-master h3,
+.love-german h3 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 70px; /* Відступ тексту від yellow-rect на 20 пікселів */
+    text-align: left;
+}
+
+
+@keyframes circleFading {
+    0% {
+        width: 400px;
+        height: 400px;
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+
+    25% {
+        width: 500px;
+        height: 500px;
+        opacity: 0.6;
+        transform: translate(-50%, -50%);
+    }
+
+    50% {
+        width: 600px;
+        height: 600px;
+        opacity: 0.4;
+        transform: translate(-50%, -50%);
+    }
+
+    75% {
+        width: 650px;
+        height: 650px;
+        opacity: 0.2;
+        transform: translate(-50%, -50%);
+    }
+
+    100% {
+        width: 700px;
+        height: 700px;
+        opacity: 0;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.circle {
+    /* position: absolute; */
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 2px solid #E77728;
+    animation-name: circleFading;
+    animation-duration: 2800ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    left: 910px;
+    top: 336px;
+    display: none;
+}
+
+
+.left-side{
+    height: 628px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width:1173px){
+    .main-content{
+        height: none;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .offers-container{
+        flex-direction: column;
+        padding: 100px 0px;
+    }
+
+    .marathon-container .first-part{
+        flex-direction: column-reverse;
+
+    }
+
+    .marathon-container{
+        padding: 70px 0px;
+    }
+
+    .our-advantages-container{
+        flex-direction:column-reverse ;
+        justify-content: space-evenly;
+        padding: 50px 0;
+    }
+
+    .maksym-feedback{
+        align-self: unset !important;
+    }
+
+    .join-container{
+        flex-direction: column-reverse;
+        padding: 50px 0;
+    }
+
+    .join-container .vektor-circle{
+        margin-bottom: 100px;
+    }
+
+    .join-container .left-content{
+        justify-content: center !important;
+        text-align: center;
+    }
+}

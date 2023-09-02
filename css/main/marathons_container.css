@@ -1,0 +1,217 @@
+.marathon-container {
+    /* position: absolute; */
+    width: 100%;
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: linear-gradient(119.32deg, #F6BA13 58.14%, #DD7F4A 141.96%);
+}
+
+.vektor-running {
+    position: relative;
+    /* top: -26px; *
+    left: 51.1%;
+    transform: translate(-50%, 0%); */
+}
+
+.backgr-circle {
+    /* position: absolute; */
+    width: 500px;
+    height: 500px;
+    /* top: 74px; */
+    border-radius: 50%;
+
+    background: #FFFFFF;
+}
+
+.vektor-run-img {
+    position: absolute;
+    width: 567px;
+    height: 567px;
+    top: -43px;
+}
+
+.mes-marathons {
+    /* position: relative; */
+    width: 406px;
+    height: 350px;
+    /* left: 14.13%; */
+    /* top: 150px; */
+    margin-top: 40px;
+}
+
+.big-message-box-white {
+    position: absolute;
+    width: 406px;
+    height: 327px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2), inset 2px 2px 4px rgba(255, 249, 228, 0.25), inset -4px -4px 8px rgba(255, 249, 228, 0.85);
+    border-radius: 30px;
+}
+
+.big-message-box-60op {
+    position: absolute;
+    width: 406px;
+    height: 326px;
+    top: -13px;
+
+    background: #FFFFFF;
+    opacity: 0.6;
+    border-radius: 30px;
+}
+
+.big-message-box-40op {
+    position: absolute;
+    width: 406px;
+    height: 326px;
+    top: -23px;
+
+    background: #FFFFFF;
+    opacity: 0.4;
+    border-radius: 30px;
+}
+
+.big-yellow-rect {
+    position: absolute;
+    width: 61px;
+    height: 60px;
+    left: 29px;
+    top: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: linear-gradient(119.32deg, #F6BA13 58.14%, #DD7F4A 141.96%);
+
+    box-shadow: 2px 2px 8px rgba(255, 208, 182, 0.5), inset 1px 1px 2px rgba(255, 248, 228, 0.35), inset -2px -2px 4px rgba(255, 248, 228, 0.35);
+    border-radius: 20.8946px;
+}
+
+.marathons-sign {
+    position: absolute;
+    width: 129px;
+    height: 35px;
+    left: 108px;
+    top: 18px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000500;
+}
+
+.message-marathon {
+    position: absolute;
+    width: 293px;
+    height: 127px;
+    left: 37px;
+    top: 85px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #000500;
+}
+
+.select-topic-butt {
+    position: absolute;
+    width: 275px;
+    height: 50px;
+    left: 63px;
+    bottom: 32px;
+
+
+    background: linear-gradient(119.32deg, #F6BA13 58.14%, #DD7F4A 141.96%);
+    box-shadow: 4px 4px 16px rgba(214, 150, 115, 0.5), inset 2px 2px 4px rgba(255, 248, 228, 0.35), inset -4px -4px 8px rgba(255, 248, 228, 0.35);
+    border-radius: 30px;
+    border: none;
+}
+
+.select-topic-butt a {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-decoration: none;
+
+    text-align: center;
+    justify-content: center;
+
+
+    color: #000500;
+}
+
+.additional-materials,
+.book-materials,
+.set-time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 330px;
+    height: 100px;
+
+}
+
+.big2-yellow-rect {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    background: linear-gradient(119.32deg, #F6BA13 58.14%, #DD7F4A 141.96%);
+
+    box-shadow: 2px 2px 8px rgba(255, 208, 182, 0.5), inset 1px 1px 2px rgba(255, 248, 228, 0.35), inset -2px -2px 4px rgba(255, 248, 228, 0.35);
+    border-radius: 30px;
+}
+
+.additional-materials p,
+.book-materials p,
+.set-time p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    margin-left: 120px;
+    text-align: left;
+
+}
+
+.marathon-benefits {
+    /* position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    bottom: 56px; */
+    max-width: 1100px;
+    width: 81.25vw;
+    height: 128px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1), inset 2px 2px 4px rgba(255, 249, 228, 0.25), inset -4px -4px 8px rgba(255, 249, 228, 0.85);
+    border-radius: 30px;
+    padding: 0 35px;
+}
+
+.first-part{
+    display: flex;
+    align-items: center;
+    max-width: 1170px;
+    width: 81.25vw;
+    justify-content: space-around;
+}
