@@ -17,6 +17,7 @@ body{
     width: 100vw;
     align-items: center;
     margin: 0;
+    overflow-x: hidden;
 }
 
 .dv_title {
