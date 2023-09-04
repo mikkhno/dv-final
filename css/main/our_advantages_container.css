@@ -5,7 +5,7 @@
     width: 81.25%;
 
     align-items: center;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     display: flex;
 }
 
