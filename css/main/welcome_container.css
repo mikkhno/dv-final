@@ -282,7 +282,7 @@ body{
 
     .our-advantages-container{
         flex-direction:column-reverse ;
-        justify-content: space-evenly;
+        justify-content: space-evenly !important;
         padding: 50px 0;
     }
 
