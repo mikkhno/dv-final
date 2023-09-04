@@ -1,18 +1,9 @@
 
 /* HEADER */
 header{
-    /* position: absolute;
-    width: 81.6vw;
-    height: 74px;
-    left: 8.95vw;
-    top: 24px; */
-
     max-width: 1270px;
     width: 81.25%;
     padding-top: 14px;
-    /* height: 74px; */
-    /* left: 8.95vw; */
-    /* top: 24px; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -21,13 +12,6 @@ header{
 }
 
 .nav {
-    /* position: absolute;
-    width: 600px;
-    height: 29px;
-
-    right: 17.02%;
-    top: 21.62%; */
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -71,12 +55,7 @@ header{
 }
 
 .platform-button{
-    /* position: absolute;
-    min-width: 149px;
-    left: 87.32%;
-    right: 0%;
-    top: 14.86%;
-    bottom: 33.78%; */
+
     width: 149px;
 height: 38px;
 flex-shrink: 0;
