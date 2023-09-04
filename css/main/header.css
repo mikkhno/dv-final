@@ -51,16 +51,10 @@ header{
 
 .dv-logo{
     height: 74px;
-    width: 149px;
+/*     width: 149px; */
 
     border-radius: 0;
     padding-top: 16px;
-
-    /* position: absolute;
-    left: 0%;
-    right: 87.32%;
-    top: 0%;
-    bottom: 0%; */
 }
 
 
