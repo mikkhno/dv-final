@@ -261,7 +261,7 @@ body{
 
 @media (max-width:1173px){
     .main-content{
-        height: none;
+        min-height: none;
         flex-direction: column-reverse;
         align-items: center;
     }
